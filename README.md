@@ -8,17 +8,16 @@ These are a set of Bash scripts for imputation and analysis of GWAS data.
 
 Scripts of the imputation pipeline are run in the following order.
 
-Script |	Notes 
----------- | ---------------- 
-1. aliases_and_parameters.sh | First various parameters and variables need to be set. Modify this first. 
-2. downloading_data.sh | Download reference genomes required for imputation. 
-3. checking_strand_orientation.sh | Strand orientation of the target data is checked with the reference genome (usually labelled on the forward strand). 
-4. phase_study_data.sh  | Submit jobs for phasing each chromosome. 
-   --> phase_study_data.sbatch | 
-5. impute2_sbatch_submission.sh  | Imputation is done for each chromosome in parallel. 
-   --> impute2_sbatch_submission.sbatch | 
-6. reassembling_imputed_genome.sh | Reassemble the imputed data using gtool. 
-7. convert_gen_to_ped.sh| Concert gen files to ped files. 
+
+Script    |	Description 
+:----------|---------------- 
+`1.aliases_and_parameters.sh` | First various parameters and variables need to be set. Modify this first. 
+`2.downloading_data.sh` | Download reference genomes required for imputation. 
+`3.checking_strand_orientation.sh` | Strand orientation of the target data is checked with the reference genome (usually labelled on the forward strand). 
+`4.phase_study_data.sh` <br/>  `--> phase_study_data.sbatch` | Submit jobs for phasing each chromosome. 
+`5.impute2_sbatch_submission.sh` <br/>  `--> impute2_sbatch_submission.sbatch` | Imputation is done for each chromosome in parallel. 
+`6.reassembling_imputed_genome.sh` | Reassemble the imputed data using gtool. 
+`7.convert_gen_to_ped.sh` | Convert gen files to ped files. 
 
 ---
 
