@@ -1,7 +1,7 @@
 # SNP-imputation-and-analysis-pipeline
 SNP imputation and analysis pipeline
 
-These are a set of Bash scripts for imputation and analysis of GWAS data. 
+These are a set of Bash scripts for imputation and analysis of GWAS data. Input files are typed genotypes in PED/MAP or BED/BIM/FAM format. Output of the imputation pipeline is in BED/BIM/FAM format.
 
 
 ## Scripts
