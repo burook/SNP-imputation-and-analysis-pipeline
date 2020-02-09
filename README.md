@@ -8,7 +8,7 @@ These are a set of Bash scripts for imputation and analysis of GWAS data.
 
 Scripts of the imputation pipeline are run in the following order.
 
-Script	|	Notes 
+Script |	Notes 
 ---------- | ---------------- 
 1. aliases_and_parameters.sh | First various parameters and variables need to be set. Modify this first. 
 2. downloading_data.sh | Download reference genomes required for imputation. 
