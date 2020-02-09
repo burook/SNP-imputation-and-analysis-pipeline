@@ -1,3 +1,6 @@
+# SNP-imputation-and-analysis-pipeline
+SNP imputation and analysis pipeline
+
 These are a set of Bash scripts for imputation and analysis of GWAS data. 
 
 
